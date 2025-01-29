@@ -8,8 +8,7 @@
 -  **Live Auctions**: A real-time auction system allowing users to bid easily.
 -  **Secure Payments**: Provides safe and secure online payment methods.
 -  **Historical Documentation**: Each artifact comes with verified historical information.
--  **Instant Notifications**: Get alerts when someone bids on an artifact you're interested in.
-
+ 
 #  Technologies Used
 - **Backend**: ( Node.js )
 - **Frontend**: ( HTML, CSS, JavaScript)
