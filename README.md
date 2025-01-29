@@ -18,5 +18,4 @@
 #  How to Run the Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/golden-relics.git
-   cd golden-relics
+   
