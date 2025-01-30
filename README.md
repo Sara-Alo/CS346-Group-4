@@ -16,6 +16,12 @@
 - **Hosting**: (local hosting)
 
 #  How to Run the Project
+
+1/ PS C:\Users\Lenovo> cd "C:\Users\Lenovo\OneDrive\Desktop\Web Project"
+2/ PS C:\Users\Lenovo\OneDrive\Desktop\Web Project> npm start
+The Result:
+App listening on port 5000
+Database Connected: cluster0-shard-00-00.zc0v8.mongodb.ne
 1. **Clone the Repository**:
    ```bash
    
