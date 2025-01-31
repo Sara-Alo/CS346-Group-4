@@ -13,7 +13,7 @@ The platform addresses the challenge of connecting buyers with authentic, high-q
 ### Prerequisites
 Before running the project, install the following dependencies:
 
-```sh
+ 
 npm install express fs express-ejs-layouts method-override mongoose express-session passport connect-mongo path bcrypt
 
 # Technologies Used
