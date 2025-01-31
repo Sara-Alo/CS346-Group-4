@@ -65,6 +65,9 @@ features that may be added in the future.
 
   -Alya Salman Almallahi
 
+  -Raneem Abdullah Alsulami
+
+  
 # DEMO VIDEO
 DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=sharing
 #  How to Run the Project
