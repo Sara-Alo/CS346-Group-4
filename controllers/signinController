@@ -1,0 +1,37 @@
+// controllers/signinController.js
+const User = require('../models/User');
+const bcrypt = require('bcryptjs');
+
+module.exports = async (req, res) => {
+    const { email, password } = req.body;
+
+    console.log("Received data:", req.body);
+
+    // Check that email and password are provided
+    if (!email || !password) {
+        return res.status(400).json({ message: "Email and password are required fields" });
+    }
+
+    try {
+        // Check if the user exists
+        const user = await User.findOne({ email });
+        if (!user) {
+            return res.status(400).json({ message: "User not found" });
+        }
+
+        // Check if the password matches (without encryption)
+        if (user.password !== password) {
+            return res.status(400).json({ message: "Incorrect password" });
+        }
+
+        // After successful login, save the user ID in the session
+        req.session.userId = user._id;
+
+        // Redirect the user to the homepage after login
+        return res.redirect('/'); // Redirect the user to the homepage after login
+
+    } catch (err) {
+        console.error("Error during signin:", err);
+        return res.status(500).json({ message: "An error occurred during login", error: err.message });
+    }
+};
