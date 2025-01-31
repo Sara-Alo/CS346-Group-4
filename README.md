@@ -32,6 +32,15 @@ npm install express fs express-ejs-layouts method-override mongoose express-sess
    - Implement a robust authentication system
 
 #  Screenshots
+<img width="1440" alt="Screenshot 2025-01-31 at 11 44 24 PM" src="https://github.com/user-attachments/assets/781676be-a185-4e58-8033-40b7d50a3e32" />
+<img width="1440" alt="Screenshot 2025-01-31 at 11 46 44 PM" src="https://github.com/user-attachments/assets/ae3d0f4b-8767-4554-8d04-ecb15f1f6df1" />
+<img width="1440" alt="Screenshot 2025-01-31 at 11 48 14 PM" src="https://github.com/user-attachments/assets/3a8d274e-8a3d-4fea-8a05-23ebcf7e35b2" />
+<img width="1440" alt="Screenshot 2025-01-31 at 11 49 41 PM" src="https://github.com/user-attachments/assets/d4b4a27b-0c90-4eae-ab78-4b8c686a0304" />
+<img width="1440" alt="Screenshot 2025-01-31 at 11 49 13 PM" src="https://github.com/user-attachments/assets/3dded5b8-8f5a-4639-bb14-4c6f1f9eab33" />
+
+
+
+
   
 
  # Future Work
