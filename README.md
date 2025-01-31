@@ -15,15 +15,15 @@
 - **Database**: (MongoDB)
 - **Hosting**: (local hosting)
 
+# DEMO VIDEO
+DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=drive_link
 #  How to Run the Project
 
-1/ PS C:\Users\Lenovo> cd "C:\Users\Lenovo\OneDrive\Desktop\Web Project"
-2/ PS C:\Users\Lenovo\OneDrive\Desktop\Web Project> npm start
+   ```bash
+1-  PS C:\Users\Lenovo> cd "C:\Users\Lenovo\OneDrive\Desktop\Web Project"
+ ```bash
+2-  PS C:\Users\Lenovo\OneDrive\Desktop\Web Project> npm start
+ ```bash
 The Result:
 App listening on port 5000
 Database Connected: cluster0-shard-00-00.zc0v8.mongodb.ne
-
-DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=drive_link
-1. **Clone the Repository**:
-   ```bash
-   
