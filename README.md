@@ -37,9 +37,11 @@ features that may be added in the future.
 
  # Resources
 
-  1/ https://youtu.be/P8YuWEkTeuE?
-2/https://www.youtube.com/watch?v=O5kh3sTVSvA
-3/ https://www.youtube.com/watch?v=V8dYGNfHjfk
+ 1-  https://youtu.be/P8YuWEkTeuE?
+
+2- https://www.youtube.com/watch?v=O5kh3sTVSvA
+
+3-  https://www.youtube.com/watch?v=V8dYGNfHjfk
   
   # Team Members
   
