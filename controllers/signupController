@@ -1,0 +1,45 @@
+// controllers/signupController.js
+
+const User = require('../models/User');
+const bcrypt = require('bcryptjs');
+
+module.exports = async (req, res) => {
+    const { email, password, passwordConfirm } = req.body;
+
+    console.log("Received data:", req.body);
+
+    // Check that email, password, and passwordConfirm are provided
+    if (!email || !password || !passwordConfirm) {
+        return res.status(400).json({ message: "Email and password are required fields" });
+    }
+
+    // Check if password matches the confirmation password
+    if (password !== passwordConfirm) {
+        return res.status(400).json({ message: "Password and password confirmation do not match" });
+    }
+
+    try {
+        const data = { email, password };
+
+        // Check if the user already exists
+        const existingUser = await User.findOne({ email });
+        if (existingUser) {
+            return res.status(400).json({ message: "Email is already in use" });
+        }
+
+        // Add the user to the database
+        const userdata = await User.create(data);
+        console.log(userdata);
+
+        // After successful registration, log in using the session
+        req.session.userId = userdata._id; // Save the user ID in the session
+
+        // Redirect the user to the homepage after successful registration
+        return res.redirect('/'); // Ensure return is used to prevent sending a second response
+    } catch (error) {
+        console.error("Error during signup:", error);
+        return res.status(500).json({ message: "Server error", error: error.message });
+    }
+};
+
+
