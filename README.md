@@ -1,4 +1,4 @@
-![wepProject drawio](https://github.com/user-attachments/assets/0e37a19d-1d51-4c6a-9500-e7769091fa62) # Overview
+ # Overview
  
 This website is an online auction platform designed for selling and purchasing antique items. It serves as a marketplace where users can bid on valuable antiques such as rare artifacts, vintage collectibles, and historical items. The primary purpose of the website is to provide a secure, transparent, and efficient auction environment for buyers and sellers of antiques.
 
