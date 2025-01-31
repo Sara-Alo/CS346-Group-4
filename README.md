@@ -16,7 +16,7 @@
 - **Hosting**: (local hosting)
 
 # DEMO VIDEO
-DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=drive_link
+DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=sharing
 #  How to Run the Project
 
    ```bash
