@@ -1,19 +1,50 @@
-# Golden Relics
-
-#  Introduction
-**Golden Relics** is an auction store specialized in selling rare and historical artifacts. The project aims to provide a reliable platform for collectors, historians, and investors to buy and sell artifacts in a secure and transparent manner.
-
-#  Features
--  **Browse Artifacts**: Explore a wide collection of rare and unique artifacts.
--  **Live Auctions**: A real-time auction system allowing users to bid easily.
--  **Secure Payments**: Provides safe and secure online payment methods.
--  **Historical Documentation**: Each artifact comes with verified historical information.
+![wepProject drawio](https://github.com/user-attachments/assets/0e37a19d-1d51-4c6a-9500-e7769091fa62) # Overview
  
-#  Technologies Used
-- **Backend**: ( Node.js )
-- **Frontend**: ( HTML, CSS, JavaScript)
-- **Database**: (MongoDB)
-- **Hosting**: (local hosting)
+This website is an online auction platform designed for selling and purchasing antique items. It serves as a marketplace where users can bid on valuable antiques such as rare artifacts, vintage collectibles, and historical items. The primary purpose of the website is to provide a secure, transparent, and efficient auction environment for buyers and sellers of antiques.
+
+The platform addresses the challenge of connecting buyers with authentic, high-quality antique items that may not be readily available through traditional retail channels.
+
+# Flow Chart
+ 
+# Setup
+
+
+# Technologies Used
+
+   - Frontend:HTML, CSS, JavaScript, React.js
+   - Backend: Node.js, Express.js
+   - Database: MongoDB
+
+  
+#  Goals
+   The goal of this project is to create an online auction platform for selling antique items. The website aims to achieve:
+ 
+   - Provide a user-friendly online shopping experience
+   - Allow for easy product management (admin side)
+   - Integrate secure payment processing
+   - Implement a robust authentication system
+
+#  Screenshots
+  
+
+ # Future Work
+features that may be added in the future.
+
+   - Add a recommendation engine for products
+   - Add customer review system for products
+   - Optimize the website for mobile devices
+   - Enhance security features, like two-factor authentication
+
+ # Resources
+
+  1/ https://youtu.be/P8YuWEkTeuE?
+2/https://www.youtube.com/watch?v=O5kh3sTVSvA
+3/ https://www.youtube.com/watch?v=V8dYGNfHjfk
+  
+  # Team Members
+  
+  -Sarah Mohammed Alowjan
+  -Alya Salman Almallahi
 
 # DEMO VIDEO
 DEMO: https://drive.google.com/file/d/1CpnQHRS-L-x_9FeYY86AD-sH4rq2CnAT/view?usp=sharing
