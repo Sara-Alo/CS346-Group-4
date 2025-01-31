@@ -5,7 +5,8 @@ This website is an online auction platform designed for selling and purchasing a
 The platform addresses the challenge of connecting buyers with authentic, high-quality antique items that may not be readily available through traditional retail channels.
 
 # Flow Chart
- 
+ ![Uploading wepProject.drawio.png…]()
+
 # Setup
 
 
